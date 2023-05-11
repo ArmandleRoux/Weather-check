@@ -13,7 +13,7 @@ def convert_time(unix_time):
     return converted_date
 
 
-def display_weather(e=None) -> None:
+def display_weather(e=None):
 
     # Clears current displayed weather info
     for widget in frame.winfo_children():
